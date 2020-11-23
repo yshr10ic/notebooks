@@ -58,7 +58,7 @@
         - B：コインで裏が出た人たち
         - C：Aの中で煙草を吸った人たち
         - D：Bの中で煙草を吸った人たち
-        <div style="background-color:#ffffff;" align="center"><img src="./img/chap01_01.png" width=300"></div>
+        <div style="background-color:#ffffff;" align="center"><img src="./img/chap01_01.png" width=500"></div>
 
     - 数値例
         - 調査対象者数：1000人
@@ -67,7 +67,7 @@
             - $| A | = 500$, $| B | = 500$
         - アンケートに「はい」と答えた人数：600人
             - $| B \cup C | = 600$
-        <div style="background-color:#ffffff;" align="center"><img src="./img/chap01_02.png" width=300"></div>
+        <div style="background-color:#ffffff;" align="center"><img src="./img/chap01_02.png" width=500"></div>
 
         - $B$と$C$は互いに背反であるため
             - $| C | = | B \cup C | - | B | = 100$
@@ -178,7 +178,7 @@
             - パラメータ$a > 0$、$b > 0$を持つ確率密度関数
             - $f(x) = \left\{\begin{matrix} \frac{1}{{\rm B}(a, b)} x^{a-1} (1-x)^{b-1} && 0 \leq x \leq 1 \\  0 && x < 0 \,\, {\rm or} \,\, x > 1 \end{matrix}\right.$
             - ${\rm B}(a, b) = \int_0^1 t^{a-1} (1-t)^{b-1} {\rm d}t$を**ベータ関数**という
-        <div style="background-color:#ffffff;" align="center"><img src="./img/chap03_01.png" width=300"></div>
+        <div style="background-color:#ffffff;" align="center"><img src="./img/chap03_01.png" width=500"></div>
     - モデル
         - 前提条件
             - $X \sim {\rm Bin}(n, p)$
@@ -217,7 +217,7 @@
             - $\frac{10時間}{10日 - 2日} = 1.25時間/日$
         - $t$日サボってしまった場合
             - $\frac{10時間}{10日 - t日}$
-        <div style="background-color:#ffffff;" align="center"><img src="./img/chap04_01.png" width=300"></div>
+        <div style="background-color:#ffffff;" align="center"><img src="./img/chap04_01.png" width=500"></div>
 - 時間割引
     - 未来に受け取る予定の利得は現在の価値よりも割り引かれる
         - 以下の状況を考える
@@ -288,7 +288,7 @@
                 - $(r + 1)$人目以降に、その最大値を超える相手が現れたらその人を選ぶ
                 - 選んだ相手が最大値であった場合は成功、そうでなかった場合は失敗
             - 成功する確率
-            <div style="background-color:#ffffff;" align="center"><img src="./img/chap05_01.png" width=300"></div>
+            <div style="background-color:#ffffff;" align="center"><img src="./img/chap05_01.png" width=500"></div>
 
 ## 第６章：アルバイトの配属方法
 
