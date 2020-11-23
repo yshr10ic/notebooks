@@ -20,3 +20,19 @@ $$
 $$
 f(t) = \lim _{p \rightarrow \infty} \frac{1}{2 \pi i} \int _{c-ip}^{c+ip} F(s) {\rm e} ^{st} {\rm d} s
 $$
+
+# 偏微分
+
+多変数関数$z = f(x, y)$において、特定の文字以外を定数とみなして微分することを**偏微分**という
+
+$$
+\frac{\partial z}{\partial x}, \,\, \frac{\partial z}{\partial y}
+$$
+
+# 全微分
+
+多変数関数$z = f(x, y)$において、関数値の増分${\rm d}z$をそれぞれの増分${\rm d}x$と${\rm d}y$を用いて表すことを**全微分**という
+
+$$
+{\rm d}z = \frac{\partial z}{\partial x} {\rm d} x + \frac{\partial z}{\partial y} {\rm d} y
+$$
