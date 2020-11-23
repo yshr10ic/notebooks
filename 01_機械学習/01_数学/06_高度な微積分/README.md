@@ -36,3 +36,28 @@ $$
 $$
 {\rm d}z = \frac{\partial z}{\partial x} {\rm d} x + \frac{\partial z}{\partial y} {\rm d} y
 $$
+
+# ラグランジュの未定乗数法
+
+ある条件下で、多変数関数の最大値や最小値を求める方法
+
+$x$、$y$が条件$g(x, y) = 0$を満たしながら動くとき、$z = f(x, y)$が最大、最小となる$x$、$y$では、下式が成り立つ
+
+$$
+F(x, y, \lambda) = f(x, y) - \lambda g(x, y) \\
+\frac{\partial F}{\partial x} = \frac{\partial F}{\partial y} = \frac{\partial F}{\partial \lambda} = 0
+$$
+
+## 例題
+
+<div align="center">
+    <img src="ラグランジュの未定乗数法_例題.png" width=500">
+</div>
+
+## ポイント
+
+- ラグランジュの未定乗数法は簡単で便利なテクニックである
+- $\lambda$が何を意味するのか、直感的に理解することが難しい
+- 理屈が気になっても、まずはテクニックとして習得すべし
+- 変数が3個以上あっても、条件が複数あっても使える汎用性が高い方法
+- ただし、得られた結果はあくまで最大値、最小値を取る候補であって、それが最大値、最小値を取ることを保証するものではない
