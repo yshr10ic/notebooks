@@ -80,3 +80,30 @@ $$
 $$
 f'(a) = \frac{f(a+h) - f(a-h)}{2h}
 $$
+
+# 数値積分
+
+関数$y = f(x)$の$x = a$から$b$までの積分値$S = \int_a^b f(x) {\rm d} x$は、分割数$n$（シンプソンの公式は$2n$）で以下のように計算できる
+
+## 長方形近似
+
+$$
+\frac{b - a}{n} \left ( f(x_0) + f(x_1) + \cdots + f(x_{n-1}) \right )
+$$
+
+## 台形近似
+
+$$
+\frac{b - a}{2n} \left ( f(x_0) + 2 ( f(x_1) + f(x_2) + \cdots + f(x_{n-1})) + f(x_n) \right )
+$$
+
+## シンプソンの公式（放物線近似）
+
+$$
+\frac{b - a}{6n} \left ( f(x_0) + 4 ( f(x_1) + f(x_3) + \cdots + f(x_{2n-1})) + 2 ( f(x_2) + f(x_4) + \cdots + f(x_{2n-2})) + f(x_{2n}) \right )
+$$
+
+<div align="center">
+    <img src="数値積分.png" width=500">
+    <img src="数値積分例.png" width=500">
+</div>
